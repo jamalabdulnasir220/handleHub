@@ -14,6 +14,10 @@ button {
   display: none;
 }
 
+.cl-drawerRoot {
+  z-index: 100;
+}
+
 /* // position: absolute;
 // width: 92.86px;
 // height: 44px;

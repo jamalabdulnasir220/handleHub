@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.svg";
+// import logo from "../assets/logo.svg";
+import handlehub from "../assets/logo.svg";
 import { Link, useNavigate } from "react-router-dom";
 import { BoxIcon, GripIcon, ListIcon, MenuIcon, MessageCircleMoreIcon, XIcon } from "lucide-react";
 import { useClerk, useUser, UserButton } from "@clerk/clerk-react";
@@ -11,17 +12,20 @@ const Navbar = () => {
   const { user } = useUser();
   const { openSignIn } = useClerk();
 
+
   return (
     <nav className="h-20">
       <div className="fixed left-0 top-0 right-0 z-100 flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white transition-all">
-        <img
+        
+          <img
           onClick={() => {
             (navigate("/"), scrollTo(0, 0));
           }}
-          src={logo}
-          alt="logo"
+          src={handlehub}
+          alt="handlehub logo"
           className="h-10 cursor-pointer"
         />
+     
 
         {/* Desktop Menu */}
         <div className="hidden sm:flex items-center gap-4 md:gap-8 max-md:text-sm text-gray-800">

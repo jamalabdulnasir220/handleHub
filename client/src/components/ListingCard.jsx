@@ -94,22 +94,4 @@ const ListingCard = ({ listing }) => {
 
 export default ListingCard;
 
-/* More Details */
 
-// position: absolute;
-// width: 81.2px;
-// height: 17.6px;
-// left: calc(50% - 81.2px/2 + 0.16px);
-// top: calc(50% - 17.6px/2 - 0.4px);
-
-// font-family: 'Rethink Sans';
-// font-style: normal;
-// font-weight: 400;
-// font-size: 14px;
-// line-height: 20px;
-// /* or 143% */
-// display: flex;
-// align-items: center;
-// text-align: center;
-
-// color: #FFFFFF;
