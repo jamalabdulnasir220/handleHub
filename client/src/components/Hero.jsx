@@ -5,7 +5,8 @@ const Hero = () => {
   const [input, setInput] = useState("");
   const navigate = useNavigate();
 
-  const onSubmitHandler = () => {
+  const onSubmitHandler = (e) => {
+    e.preventDefault()
     navigate(`/marketplace?search=${input}`);
   };
 
