@@ -203,7 +203,7 @@ export const dummyListings = [
         followers_count: 20000,
         engagement_rate: 6,
         monthly_views: 600000,
-        niche: 'music',
+        niche: 'fitness',
         price: 3800,
         description: 'Active music streaming channel with loyal audience and consistent income from subscribers and donations.',
         verified: true,
